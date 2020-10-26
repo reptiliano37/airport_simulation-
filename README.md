@@ -8,6 +8,8 @@ En la siguiente clase se instancian todas las clases que van a ser usadas, para 
 
 [Main.java](/blob/main/Aeropuerto/src/main/java/com/mycompany/aeropuerto/Main.java)
 
+[Carpeta con clases principales](/Aeropuerto/src/main/java/com/mycompany/aeropuerto/)
+
 1. Instanciación de las clases con los parámetros adecuados acorde al enunciado.
 2. Comienzan mediante el método start() las clases hilo, primero Pasajero, y a continuación Empleado.
 3. Los pasajeros (cada uno de ellos es un thread) van depositando las maletas en la Cinta (primer buffer). En total tienen que depositar 80. La cinta se llena cada vez que hay 8 maletas.
